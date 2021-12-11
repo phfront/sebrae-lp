@@ -1,5 +1,5 @@
-html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.slick-slider,
+.slick-list,
+.slick-track,
+.slick-slider,
+.slick-slider div {
+  height: 100%;
 }
